@@ -700,6 +700,9 @@ html, body {
 
 .subscribe__button {
     background: #FF7B47;
+    color: #fff;
+    font-size: 14px;
+    line-height: calc(28 / 14);
     border: 1px solid #E6E6E6;
     border-radius: 0 5px 5px 0;
     display: flex;
@@ -707,9 +710,16 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 0 22px;
+    transition: all 0.3s ease 0s;
+}
+.subscribe__button:hover {
+    cursor: pointer;
+    color: #FF7B47;
+    border: 1px solid #FF7B47;
+    background: #fff;
 }
 
-/* ----------------- FOOTER ----------------------- */
+/* ----------------- GET IN TOUCH ----------------------- */
 
 .getintouch {
     padding: 180px 0 130px 0;
@@ -814,6 +824,64 @@ html, body {
 .item-getintouch_active .item-getintouch__button:hover {
     color: #252B42;
     background-color: #fff;
+}
+
+/* ----------------- CONTACT ----------------------- */
+
+.contact {
+    background-color: #fff;
+    padding: 42px 0;
+}
+
+.contact__content {
+    padding: 0 0 20px 0;
+}
+
+@media (min-width: 768px) {
+    .contact__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contact__content {
+        padding: 0 20px 0 0;
+    }
+}
+
+.contact__title {
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    font-size: 24px;
+    line-height: calc(32 / 24);
+    padding-right: 20px;
+}
+.contact__title:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.contact__text {
+    color: #737373;
+    line-height: calc(24 / 14);
+}
+
+.contact__button {
+    min-height: 58px;
+    padding: 5px 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FF7B47;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #FF7B47;
+    transition: all 0.3s ease 0s;
+}
+.contact__button:hover {
+    color: #FF7B47;
+    background: #fff;
+    cursor: pointer;
 }
 
 /* ----------------- FOOTER ----------------------- */
