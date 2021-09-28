@@ -604,6 +604,30 @@ html, body {
     line-height: calc(24 / 14);
 }
 
+/* ----------------- CLIENTS ----------------------- */
+
+.clients {
+    padding: 50px 0;
+}
+
+.clients__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clients__item {
+    flex: 0 1 16.667%;
+    padding: 15px;
+    text-align: center;
+    min-width: 140px;
+}
+
+.clients__item img {
+    max-width: 100%;
+}
+
 /* ----------------- FOOTER ----------------------- */
 
 .footer__top {
