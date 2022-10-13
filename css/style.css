@@ -109,7 +109,7 @@ html, body {
 }
 
 .menu__link {
-    color: #737373;
+    color: black;
     font-weight: 600;
     line-height: calc(24 / 14);
 }
@@ -179,7 +179,7 @@ html, body {
 }
 
 .main-block__text {
-    color: #CD853F;
+    color: Black;
     font-size: 20px;
     line-height: calc(30 / 20);
 }
