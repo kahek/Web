@@ -1,4 +1,5 @@
 html, body {
+    color:#98FB98;
     height: 100%;
     line-height: 1;
     font-size: 14px;
@@ -16,7 +17,6 @@ html, body {
 }
 
 ._container {
-    color: rgb(233,150,122);
     max-width: 1046px;
     padding: 0 15px;
     margin: 0 auto;
@@ -179,7 +179,7 @@ html, body {
 }
 
 .main-block__text {
-    color: #737373;
+    color: black;
     font-size: 20px;
     line-height: calc(30 / 20);
 }
@@ -273,6 +273,7 @@ html, body {
 }
 
 .services__column {
+    color:rgb(233,150,122);
     flex: 0 1 33.33%;
 }
 @media (min-width: 670px) {
