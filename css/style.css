@@ -16,6 +16,7 @@ html, body {
 }
 
 ._container {
+    color: rgb(233,150,122);
     max-width: 1046px;
     padding: 0 15px;
     margin: 0 auto;
